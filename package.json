@@ -10,10 +10,11 @@
   "author": "Dan Finlay",
   "license": "ISC",
   "dependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^17.0.0",
     "color": "^0.11.3",
     "mersenne-twister": "^1.1.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flyswatter/jazzicon.git"
