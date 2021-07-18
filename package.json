@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -s chiaicon -o dist/icon.js",
     "start": "beefy sample.js --live --open"
   },
   "author": "Dan Finlay",

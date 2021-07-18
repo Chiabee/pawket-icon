@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chiabee</title>
+</head>
+
+<body>
+    <div id="icon"></div>
+    <input type="text" id="input" value="1">
+
+    <script src="/dist/icon.js" type="text/javascript"></script>
+    <script>
+
+var disNum = document.getElementById('input');
+
+let update= function(){
+        var iconEl = document.getElementById('icon');
+        iconEl.innerHTML = "";
+
+        var el = chiaicon(100, disNum.value)
+        iconEl.appendChild(el)
+};
+disNum.onkeyup = update;
+update();
+
+    </script>
+</body>
+
+</html>
